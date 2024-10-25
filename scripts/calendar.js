@@ -39,6 +39,7 @@ function createCalendar(year, month) {
     const emptyCell = document.createElement("td")
     row.appendChild(emptyCell)
   }
+
   table.appendChild(row)
   calendarDiv.appendChild(table)
 }
