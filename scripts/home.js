@@ -1,7 +1,7 @@
 const inputField = document.getElementById("textInputArea");
-const text = inputField.value;
 
 function saveText() {
+  let text = inputField.value
     function func_savedata(data) {
     var string_data = JSON.stringify(data);
     var file = new File([string_data], "savefile.txt", {
@@ -10,9 +10,10 @@ function saveText() {
 
     var anchor = document.createElement("a");
     anchor.setAttribute("href", window.URL.createObjectURL(file));
-    anchor.setAttribute("download", "savefile.txt");
+    anchor.setAttribute("download", "file.txt");
     anchor.click();
     URL.revokeObjectURL(anchor.href);
   }
   func_savedata(text);
 }
+
