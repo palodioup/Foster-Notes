@@ -1,0 +1,39 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  padding: 50px;
+  background: linear-gradient(to right, skyblue, blue);
+  top: 0;
+}
+
+.logo-head-flex {
+  display: flex;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid dodgerblue;
+  padding: 8px;
+  text-align: center;
+  color: white;
+  background-color: green;
+}
+
+td:hover {
+  background-color: yellow;
+}
+
+th:hover {
+  background-color: yellow;
+}

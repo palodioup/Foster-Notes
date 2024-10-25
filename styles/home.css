@@ -1,0 +1,67 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  padding: 50px;
+  background: linear-gradient(to right, skyblue, blue);
+  top: 0;
+
+}
+.logo-head-flex {
+  display: flex;
+}
+nav {
+  display: flex;
+}
+.inputArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 50px;
+  width: 70rem;
+  height: 46.875rem;
+  text-align: center;
+  margin: 50px;
+}
+.buttonArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.save-element {
+  height: 50px;
+  width: 100px;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+.save-element:hover {
+  background-color: rgb(0, 104, 0);
+}
+.save-element:active {
+  background-color: rgb(0, 66, 0);
+}
+.grid-area {
+  display: flex;
+}
+.intro-div {
+  text-align: center;
+}
+.textAreaArea {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  text-align: center;
+}
