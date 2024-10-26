@@ -9,7 +9,6 @@ header {
   padding: 50px;
   background: linear-gradient(to right, skyblue, blue);
   top: 0;
-
 }
 .logo-head-flex {
   display: flex;
@@ -74,7 +73,6 @@ nav {
     padding: 50px;
     background: linear-gradient(to right, red, orange);
     top: 0;
-    width: 100%;
   }
 }
 @media only screen and (min-width: 576px) {
@@ -85,7 +83,6 @@ nav {
     padding: 50px;
     background: linear-gradient(to right, green, blue);
     top: 0;
-  
   }
 }
 @media only screen and (min-width: 992px) {
@@ -106,7 +103,6 @@ nav {
     padding: 50px;
     background: linear-gradient(to right, green, blue);
     top: 0;
-  
   }
 }
 @media only screen and (min-width: 1500px) {

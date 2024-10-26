@@ -22,7 +22,8 @@ table {
   border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   border: 1px solid dodgerblue;
   padding: 8px;
   text-align: center;
@@ -57,7 +58,6 @@ th:hover {
     padding: 50px;
     background: linear-gradient(to right, green, blue);
     top: 0;
-  
   }
 }
 @media only screen and (min-width: 992px) {
@@ -78,7 +78,6 @@ th:hover {
     padding: 50px;
     background: linear-gradient(to right, green, blue);
     top: 0;
-  
   }
 }
 @media only screen and (min-width: 1500px) {
