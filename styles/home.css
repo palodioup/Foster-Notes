@@ -74,6 +74,7 @@ nav {
     padding: 50px;
     background: linear-gradient(to right, red, orange);
     top: 0;
+    width: 100%;
   }
 }
 @media only screen and (min-width: 576px) {
