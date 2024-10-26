@@ -1,4 +1,5 @@
 const inputField = document.getElementById("textInputArea");
+const inputValue = inputField.value
 
 function saveText() {
   let text = inputField.value;

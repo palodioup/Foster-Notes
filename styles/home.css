@@ -16,6 +16,12 @@ header {
 nav {
   display: flex;
 }
+ul {
+  margin-left: 700px;
+  list-style-type: none;
+  margin-top: 10px;
+  color: white;
+}
 .inputArea {
   display: flex;
   justify-content: center;
@@ -71,7 +77,7 @@ nav {
   }
   header {
     padding: 50px;
-    background: linear-gradient(to right, red, orange);
+    background: linear-gradient(to right, red, blue);
     top: 0;
   }
 }
@@ -81,7 +87,7 @@ nav {
   }
   header {
     padding: 50px;
-    background: linear-gradient(to right, green, blue);
+    background: linear-gradient(to right, green, yellow);
     top: 0;
   }
 }
@@ -91,7 +97,7 @@ nav {
   }
   header {
     padding: 50px;
-    background: linear-gradient(to right, red, orange);
+    background: linear-gradient(to right, red, blue);
     top: 0;
   }
 }
@@ -101,7 +107,7 @@ nav {
   }
   header {
     padding: 50px;
-    background: linear-gradient(to right, green, blue);
+    background: linear-gradient(to right, green, yellow);
     top: 0;
   }
 }
@@ -111,7 +117,7 @@ nav {
   }
   header {
     padding: 50px;
-    background: linear-gradient(to right, red, orange);
+    background: linear-gradient(to right, red, blue);
     top: 0;
   }
 }
